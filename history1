@@ -1,0 +1,80 @@
+echo #"26415171" >> README.md
+  297  git init
+  298  git add README.md
+  299  touch coba.txt
+  300  ls -al
+  301  ls
+  302  pwd
+  303  strings --help
+  304  strings -d coba.txt
+  305  strings -f coba.txt
+  306  strings -f coba1.txt
+  307  strings -f coba.txt
+  308  nano coba.txt
+  309  strings -f coba.txt
+  310  strings -t coba.txt
+  311  string -f  coba.txt
+  312  strings -t coba.txt
+  313  cat coba.txt
+  314  grep coba.txt
+  315  touch history1.txt
+  316  clear
+  317  history
+  318  git push -u origin master
+  319  git clone git@github.com:antoniochandra/26415171.git
+  320  git remote add origin git@github.com:antoniochandra/26415171.git
+  321  clear
+  322  history
+  323  ls
+  324  ls history1.txt
+  325  cat history1.txt
+  326  git add README.md
+  327  cd 26415171
+  328  git add history1.txt
+  329  ls
+  330  git remote -v
+  331  git add foo.txt
+  332  git add history1.txt
+  333  ls
+  334  git status
+  335  vim README
+  336  git status
+  337  sudo app install vim
+  338  git add README
+  339  git add history1.txt
+  340  git clone 
+  341  git clone git@github.com:antoniochandra/26415171.git
+  342  ls
+  343  git init
+  344  cd 26415171
+  345  git init
+  346  ls
+  347  git add history1.txt
+  348  git coba.txt
+  349  git --help
+  350  git add *
+  351  git --help
+  352  git push
+  353  clear
+  354  git --help
+  355  git branch
+  356  git show
+  357  git add *
+  358  git add --help
+  359  ls
+  360  ls -all
+  361  git init
+  362  git remote add origin git@github.com:antoniochandra/26415171.git
+  363  git pull origin master
+  364  clear
+  365  ls
+  366  git add coba.txt
+  367  ls
+  368  nano 1.txt
+  369  history 60 > 1.txt
+  370  nano 2.txt
+  371  git status
+  372  git 1.txt
+  373  git add 1.txt
+  374  git add .
+  375  history
