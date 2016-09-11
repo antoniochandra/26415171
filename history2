@@ -1,0 +1,60 @@
+  376  git commit -m "cobacoba"
+  377  git push
+  378  cd
+  379  ls
+  380  cd /home/antoniochandra/GitHub/26415171
+  381  cd 26415181
+  382  cd 26415171
+  383  ls
+  384  sed 'aaaa' aaa'csv
+  385  sed -n 4,10 aaa.csv
+  386  asd
+  387  qweqweqwe
+  388  123123
+  389  aku bingung
+  390  v
+  391  exit
+  392  ls
+  393  ssh -v
+  394  ssh -; m26415171 opensource.petra.ac.id
+  395  clear
+  396  awk -''helo
+  397  awk --help
+  398  awk man
+  399  touch coba.txt
+  400  nano coba.csv
+  401  awk '{dicoba "mulai"}
+  402  awk '{
+printf("%d",NF)
+  403  awk ' BEGIN { print "test ajaa"; } '
+  404  awk ' BEGIN { for(i = 0 ; i < 5 ; i++) { print $i } } '
+  405  awk ' BEGIN { for(i = 0 ; i < 5 ; i++) { print "test ajaa"; } } '
+  406  cd /home/antoniochandra/GitHub/26415171
+  407  mkdir history2
+  408  cd history2
+  409  ls
+  410  history 2 > 1.txt
+  411  s
+  412  ls
+  413  clear
+  414  history
+  415  clear
+  416  ls -al
+  417  find -ianem "coba.txt"
+  418  echo "aaa"
+  419  printf "%c" {a..z}
+  420  clear
+  421  ls
+  422  nano 2.txt
+  423  sort 1.txt
+  424  sort 2.txt
+  425  sort -r 2.txt
+  426  printf("%d",nf)
+  427  uniq 2.txt
+  428  wc -n 2 2.txt
+  429  wc -c 2.txt
+  430  wc -m 2.txt
+  431  wc -l 2.txt
+  432  touch history3
+  433  clear
+  434  history
