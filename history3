@@ -1,0 +1,53 @@
+  397  git clone git@github.com:antoniochandra/26415171.git
+  398  ls
+  399  cd 26415171
+  400  git commit -m "test2"
+  401  git push
+  402  git status
+  403  ls
+  404  git clone git@github.com:antoniochandra/26415171.git
+  405  cd 26415171
+  406  git status
+  407  ssh -l m26415171 opensource.petra.ac.id
+  408  ls
+  409  awk 
+  410  awk ' BEGIN {msg= "TEST" printf "%s",msg}'
+  411  awk ' BEGIN {msg= "TEST" printf("%s",msg)}'
+  412  awk ' BEGIN {msg= "TEST" printf "%s\n",msg}'
+  413  awk ' BEGIN {msg= "TEST";printf "%s",msg}'
+  414  awk ' BEGIN {msg= "TEST";printf "%s",ms\ng}'
+  415  awk ' BEGIN {msg= "TEST";printf "%s\n",msg}'
+  416  ls
+  417  touch coba
+  418  nano coba
+  419  cat coba
+  420  awk 'BEGIN {printf "COBA"
+  421  awk 'BEGIN {printf "COBA"}
+  422  cat coba
+  423  awk ' BEGIN {msg="COBA": printf "%s\n",msg} '
+  424  awk ' BEGIN {msg="COBA": printf "%s\n",msg}'
+  425  awk' BEGIN {msg="COBA": printf "%s\n",msg}'
+  426  awk ' BEGIN {msg="COBA"; printf "%s\n",msg}'
+  427  clear
+  428  history
+  429  ls -al
+  430  echo {1..100}
+  431  echp "diatas cuma count++ dari 1 - 100"
+  432  echo "diatas cuma count++ dari 1 - 100"
+  433  seq 1 100
+  434  echp {a,b,c}{3,2,1}
+  435  echp {a,b,c}{1,2,3}
+  436  echo {a,b,c}{1,2,3}
+  437  printf "%02d" {0..9}
+  438  printf "%04d" {0..9}
+  439  clear
+  440  history
+  441  cut coba
+  442  cut -d " " -f2 coba.txt
+  443  nano coba.txt
+  444  cut -d " " -f2 coba.txt
+  445  cut -d " " -f1 coba.txt
+  446  paste coba.txt
+  447  touch history4.txt
+  448  clear
+  449  history
