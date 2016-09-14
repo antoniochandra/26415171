@@ -54,3 +54,5 @@
   450  git push origin master
   451  clear
   452  history
+  453 ls
+
