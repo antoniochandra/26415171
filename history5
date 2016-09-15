@@ -1,0 +1,58 @@
+397  git clone git@github.com:antoniochandra/26415171.git
+  398  ls
+  399  cd 26415171
+  400  git commit -m "test2"
+  401  git push
+  402  git status
+  403  git clone git@github.com:antoniochandra/26415171.git
+  404  ls
+  405  cd 26415171
+  406  nano history 5
+  407  ls
+  408  nano history5.txt
+  409  git commit -m "coba kerja pr"
+  410  git push
+  411  cd history5.txt
+  412  ls
+  413  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata" } { print $3 }' makanan.csv
+  414  awk -F"|" ' { printf("%s %s\n",$3,$1); }' makanan.csv
+  415  awk -F"|" ' { printf("%s %s\n",$3,$2); }' makanan.csv
+  416  awk -F"|" ' { print $3 }' makanan.csv
+  417  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata" } { print $3 }' makanan.csv
+  418  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata" } { print $3; print $1 }' makanan.csv
+  419  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata" } {"%s %s". print $3; print $1 }' makanan.csv
+  420  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata" { print "%s %s\n",$3,$1 }' makanan.csv
+  421  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata" { print ("%s %d %s %d\n",$3,1,$2,2 );}' makanan.csv
+  422  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata" { print ("%s %d %s %d\n",$3,1,$1,2 );}' makanan.csv
+  423  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print ("%s %d %s %d\n",$3,1,$1,2 );}' makanan.csv
+  424  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print ("%s %d %s %d\n",$3,$1 );}' makanan.csv
+  425  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print {\n",$3,$2 );}' makanan.csv
+  426  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print )\n",$3,$2 );}' makanan.csv
+  427  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print (\n",$3,$2 );}' makanan.csv
+  428  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print ("\n",$3,$2 );}' makanan.csv
+  429  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print ("%s\n",$3,$2 );}' makanan.csv
+  430  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print ($3,"\n" );}' makanan.csv
+  431  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print $3;}' makanan.csv
+  432  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print $3}' makanan.csv
+  433  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print ("%s %d %s %d\n",$3,$1 );}' makanan.csv
+  434  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print $3,$1;}' makanan.csv
+  435  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print $3,$1,"\n";}' makanan.csv
+  436  awk -F"|" 'BEGIN { print "Kategori       Banyak        Jumlah       Rata-rata"} { print $3,$1,"\n";}' makanan.csv
+  437  awk -F"|" 'BEGIN { print "Kategori       Banyak        Jumlah       Rata-rata"} { print $3,"       ",$1,"\n";}' makanan.csv
+  438  awk -F"|" 'BEGIN { print "Kategori Banyak Jumlah Rata-rata"} { print $3,$1;}' makanan.csv
+  439  clear
+  440  history
+  441  cd history5.txt
+  442  ls
+  443  nano history5.txt
+  444  git commit -m "coba pr"
+  445  git push
+  446  git init
+  447  git add history5.txt
+  448  git commit -m "coba kerja pr"
+  449  git pull origin master
+  450  git push origin master
+  451  clear
+  452  history
+  453 ls
+
