@@ -1,0 +1,64 @@
+  407  clear
+  408  history
+  409  clear
+  410  ls
+  411  cd 26415171
+  412  vim coba_c.cpp
+  413  ls
+  414  g++ coba_c.cpp
+  415  vim coba_c.cpp
+  416  g++ coba_c.cpp
+  417  vim helloworld.pl
+  418  whereis perl
+  419  which perl
+  420  perl helloworld.pl
+  421  chmod u+x helloworld.pl
+  422  ./helloworld.pl
+  423  perl -e 'print "HELLO WORLD!\n"'
+  424  vim hello.pl
+  425  perl hello.pl
+  426  cat hello.pl
+  427  vim hello.pl
+  428  perl hello.pl
+  429  chmod +x hello.pl
+  430  ./hello.pl
+  431  whereis perl
+  432  oerl -de1
+  433  perl -de1
+  434  vim test.pl
+  435  ls
+  436  perl test.pl
+  437  ips
+  438  This is Interactive Perl shell
+  439  perl> 2**128
+  440  perl -e'while(<>){coba,"\n"}'
+  441  sudo apt-get install perl
+  442  clear
+  443  history
+  444  nano history7.txt
+  445  ls
+  446  git init
+  447  git add *
+  448  git status
+  449  git commit -m "cobaperltapiadayangerrorjadihilanghistorynya"
+  450  git push origin master
+  451  system("sh", "script.sh", "--help" );
+  452  ls
+  453  system("sh", "tugas4.sh", "--help" );
+  454  system("sh tugas4.sh --help");
+  455  ls -l
+  456  system("ls -l");
+  457  system(ls -l);
+  458  system('ls -l');
+  459  exec("ls");
+  460  man vim
+  461  vim sum.pl
+  462  ls
+  463  perl sum.pl
+  464  vim sum.pl
+  465  nano numbers.txt
+  466  ls
+  467  perl sum.pl
+  468  clear
+  469  history
+
