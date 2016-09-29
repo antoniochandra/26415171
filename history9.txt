@@ -1,0 +1,50 @@
+  403  ls
+  404  cd 26415171
+  405  ls
+  406  pr.sh
+  407  nano pr.sh
+  408  ls
+  409  nano data.csv
+  410  git init
+  411  git add *
+  412  git commit -m "tugas5"
+  413  git pull origin master
+  414  git push origin master
+  415  ls
+  416  perl pr.sh
+  417  nano pr5.pl
+  418  perl pr5.pl
+  419  nano pr5.pl
+  420  perl pr5.pl
+  421  nano pr5.pl
+  422  perl pr5.pl
+  423  nano pr5.pl
+  424  perl pr5.pl
+  425  nano pr5.pl
+  426  perl pr5.pl
+  427  nano pr5.pl
+  428  perl pr5.pl
+  429  nano pr5.pl
+  430  perl pr5.pl
+  431  nano pr5.pl
+  432  perl pr5.pl
+  433  nano pr5.pl
+  434  ls
+  435  nano pr.sh
+  436  perl pr.sh
+  437  ls
+  438  rm pr5.pl
+  439  ls
+  440  nano pr5.sh
+  441  perl pr5.sh
+  442  rm pr.sh
+  443  ls
+  444  nano output_delta.csv
+  445  nano pr5.sh
+  446  ls
+  447  nano lab01.sh
+  448  perl lab01.sh
+  449  nano lab01.sh
+  450  clear
+  451  history
+antonio@antonio-V
