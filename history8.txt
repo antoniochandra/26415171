@@ -1,0 +1,78 @@
+ 397  git clone git@github.com:antoniochandra/26415171.git
+  398  ls
+  399  cd 26415171
+  400  git commit -m "test2"
+  401  git push
+  402  git status
+  403  ./Lab05-26415171.pl
+  404  perl Lab05-26415171.pl
+  405  nano Lab05-26415171.pl
+  406  perl Lab05-26415171.pl
+  407  nano Lab05-26415171.pl
+  408  perl Lab05-26415171.pl
+  409  nano Lab05-26415171.pl
+  410  perl Lab05-26415171.pl
+  411  nano Lab05-26415171.pl
+  412  perl Lab05-26415171.pl
+  413  nano Lab05-26415171.pl
+  414  perl Lab05-26415171.pl
+  415  nano Lab05-26415171.pl
+  416  perl Lab05-26415171.pl
+  417  nano Lab05-26415171.pl
+  418  perl Lab05-26415171.pl
+  419  nano Lab05-26415171.pl
+  420  perl Lab05-26415171.pl
+  421  nano Lab05-26415171.pl
+  422  perl Lab05-26415171.pl
+  423  nano Lab05-26415171.pl
+  424  perl Lab05-26415171.pl
+  425  nano Lab05-26415171.pl
+  426  perl Lab05-26415171.pl
+  427  clear
+  428  ls
+  429  history
+  430  git init
+  431  git add *
+  432  git git commit -m "Lab05-26415171"
+  433  git commit -m "Lab05-26415171"
+  434  git pull origin master
+  435  git push origin master
+  436  clear
+  437  history
+  438  git status
+  439  ls
+  440  nano coba.pl
+  441  ls
+  442  perl coba.pl
+  443  nano coba.pl
+  444  perl coba.pl
+  445  nano coba.pl
+  446  perl coba.pl
+  447  nano coba.pl
+  448  perl coba.pl
+  449  nano coba.pl
+  450  perl coba.pl
+  451  nano coba.pl
+  452  perl coba.pl
+  453  nano coba.pl
+  454  perl coba.pl
+  455  nano coba.pl
+  456  perl coba.pl
+  457  nano coba.pl
+  458  perl coba.pl
+  459  nano coba.pl
+  460  perl coba.pl
+  461  nano coba.pl
+  462  perl coba.pl
+  463  nano coba.pl
+  464  perl coba.pl
+  465  nano coba.pl
+  466  perl coba.pl
+  467  git init
+  468  git ad *
+  469  git add *
+  470  git pull origin master
+  471  git push origin master
+  472  clear
+  473  history
+
