@@ -1,0 +1,128 @@
+ 404  mkdir LatihanUTS_Prak_SO
+  405  ls
+  406  cd LatihanUTS_Prak_so
+  407  cd LatihanUTS_Prak_SO
+  408  touch a.txt
+  409  ls
+  410  mkdir si
+  411  mkdir jk
+  412  mkdir laki
+  413  mkdir perempuan
+  414  cd si
+  415  touch a.male
+  416  touch b.male
+  417  touch c.female
+  418  cd..
+  419  cd ..
+  420  cd jk
+  421  touch d.female
+  422  touch e.female
+  423  touch f.male
+  424  nano d.female
+  425  nano e.female
+  426  nano f.male
+  427  cd ..
+  428  nano ,,/si/a.male
+  429  nano ../si/a.male
+  430  ls
+  431  cd jk
+  432  ls
+  433  nano ../si/a.male
+  434  nano ../si/b.male
+  435  nano ../si/c.female
+  436  cd ~
+  437  cp si/*.male laki/
+  438  ls
+  439  cd LatihanUTS_Prak_SO
+  440  cp si/*.male laki/
+  441  cd laki
+  442  ls
+  443  cd ..
+  444  cp jk/*.male laki/
+  445  cp si/*.female perempuan/
+  446  cp jk/*.female perempuan/
+  447  ls
+  448  mv laki pejantan
+  449  ls
+  450  mkdir test
+  451  cd test
+  452  touch coba.txt
+  453  cat > coba.txt
+  454  nano coba.txt
+  455  sort coba.txt
+  456  sort -r coba.txt
+  457  chmod 777 coba.txt
+  458  chmod 741 coba.txt
+  459  chmod 764 coba.txt
+  460  chmod u-x,g-w coba.txt
+  461  ls-al
+  462  ls -al
+  463  chmod 777 coba.txt
+  464  ls -al
+  465  chmod u-x,g-w coba.txt
+  466  ls -al
+  467  wall < coba.txt
+  468  expr \( 3 \+ 2 \) \* 5 > hasil.txt
+  469  ls
+  470  cat hasil.txt
+  471  echo halo
+  472  echo coba.txt
+  473  clear
+  474  history
+  475  cd ..
+  476  ls
+  477  mv LatihanUTS_Prak_SO 26415171
+  478  cd 26415171
+  479  ls
+  480  nano history10.txt
+  481  git init
+  482  git add *
+  483  git push origin master
+  484  git commit -m "LatUTSPrak"
+  485  git init
+  486  git commit -m "LatUTSPrak"
+  487  git commit -m "history10 lat UTS Prak"
+  488  ls
+  489  git clone git@github.com:antoniochandra/26415171.git
+  490  ls
+  491  cd 26415171
+  492  ls
+  493  cd ..
+  494  ls
+  495  rm 26415171
+  496  ls
+  497  cd ..
+  498  git clone git@github.com:antoniochandra/26415171.git
+  499  cd 26415171
+  500  rm LatihanUTS_Prak_SO
+  501  CD >>
+  502  cd ..
+  503  git clone git@github.com:antoniochandra/26415171.git
+  504  ls
+  505  cd 26415171
+  506  ls
+  507  mv LatihanUTS_Prak_SO ../
+  508  ls
+  509  cd ..
+  510  ls
+  511  git clone git@github.com:antoniochandra/26415171.git
+  512  cd LatihanUTS_Prak_SO
+  513  LS
+  514  cd >>
+  515  cd 
+  516  ls
+  517  cd 26415171
+  518  ls
+  519  mv UTS ../
+  520  cd ..
+  521  ls
+  522  git clone git@github.com:antoniochandra/26415171.git
+  523  ls
+  524  git clone git@github.com:antoniochandra/26415171.git
+  525  ls
+  526  mv LatihanUTS_Prak_SO 26415171
+  527  mv UTS 26415171
+  528  cd 26415171
+  529  clear
+  530  history
+
