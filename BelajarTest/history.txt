@@ -1,0 +1,155 @@
+ 773  git clone git@github.com:antoniochandra/26415171.git
+  774  ls
+  775  cd 26415171
+  776  ls
+  777  mkdir BelajarTest
+  778  cd BelajarTest
+  779  ls
+  780  nano crap.py
+  781  python crap.py
+  782  sudo pip install request
+  783  sudo apt-get install python-pip
+  784  python crap.py
+  785  pip --help
+  786  python setup.py install
+  787  ls
+  788  nano crontab.py
+  789  crontab -e
+  790  sudo service cron start
+  791  crontab -e
+  792  python crontab.py
+  793  ls
+  794  cd 26415171
+  795  cd Belajar
+  796  ls
+  797  cd BelajarTest
+  798  crontab -e
+  799  ls
+  800  python crontab.py
+  801  nano crontab.py
+  802  python crontab.py
+  803  nano crontab.py
+  804  nano crontab.sh
+  805  python crontab.sh
+  806  nano crontab.sh
+  807  python crontab.sh
+  808  nano crontab.sh
+  809  python crontab.sh
+  810  nano crontab.sh
+  811  python crontab.sh
+  812  nano crontab.sh
+  813  rm crontab.sh
+  814  nano crontab.sh
+  815  rm crontab.sh
+  816  nano crontab.sh
+  817  python crontab.sh
+  818  nano crontab.sh
+  819  python crontab.sh
+  820  nano crontab.sh
+  821  python crontab.sh
+  822  nano crontab.sh
+  823  python crontab.sh
+  824  nano crontab.sh
+  825  python crontab.sh
+  826  wget -h
+  827  python crontab.sh
+  828  nano crontab.sh
+  829  python crontab.sh
+  830  nano crontab.sh
+  831  python crontab.sh
+  832  nano crontab.sh
+  833  python crontab.sh
+  834  wget www.elevenia.co.id/prd-apple-iphone-7-plus-black-128gb-garansi-6242166
+  835  ls
+  836  rm crontab.sh
+  837  nano crontab.sh
+  838  ./crontab.sh
+  839  /crontab.sh
+  840  ./crontab.sh
+  841  sudo bash crontab.sh
+  842  ls
+  843  crontab -e
+  844  ls
+  845  crontab -e
+  846  ls
+  847  cd..
+  848  cd ..
+  849  ls
+  850  crontab -e
+  851  cd antonio
+  852  cd 26415171
+  853  cd BelajarTes
+  854  cd BelajarTest
+  855  nano grepWeb.sh
+  856  ./grepWeb,sh
+  857  ./grepWeb.sh
+  858  bash grepWEb.sh
+  859  bash grepWeb.sh
+  860  bash ./grepWeb.sh
+  861  sudo bash grepWeb.sh
+  862  ls
+  863  sudo bash grepWeb.sh
+  864  nano web.sh
+  865* curl curl http://stats.labs.apnic.net/ipv6/ID | grep stats.labs.apnic.net/ipv6/A |aw$
+  866  sudo bash web.sh
+  867  nano web.sh
+  868  curl http://stats.labs.apnic.net/ipv6/ID | grep stats.labs.apnic.net/ipv6/A |aw$
+  869  ls
+  870  nano web.sh
+  871  sudo bash web.sh
+  872  curl -H "Accept: application/xml" -H "Content-Type: application/xml" -X GET http://hostname/resource
+  873  nano test.py
+  874  python test.py
+  875  nano test.py
+  876  pip -help
+  877  nano get.py
+  878  python get.py
+  879  sudo pip install urllib.request
+  880  sudo pip install urllib
+  881  pip install --upgrade pip
+  882  sudo pip install urllib
+  883  sudo pip install urllib.request
+  884  sudo pip install urllib urllib2
+  885  cd ..
+  886  sudo pip install urllib urllib2
+  887  sudo python install upgrade
+  888  sudo python install
+  889  update-alternatives
+  890  sudo apt-get install -y
+  891  python -v
+  892  apt-get update python
+  893  sudo apt-get install unattended-upgrades 
+  894  sudo apt-get update
+  895  sudo apt-get upgrade
+  896  sudo apt-get install python
+  897  sudo apt-get python
+  898  sudo apt-get install python
+  899  sudo apt-get install urllib
+  900  python get-pip.py
+  901  curl -O https://bootstrap.pypa.io/get-pip.py
+  902  python get-pip.py
+  903  python get-pip.py to install pip
+  904  sudo pip install requests
+  905  sudo pip install urllib
+  906  sudo pip install urllib2
+  907  ls
+  908  cd 26415171
+  909  cd BelajarTest
+  910  ls
+  911  python get.py
+  912  nano get.py
+  913  sudo pip install re
+  914  git init
+  915  cd ..
+  916  git init
+  917  git add *
+  918  git commit -m a
+  919  git push origin master
+  920  git pull origin master
+  921  cd BelajarTest
+  922  curl -G -d "public=1&type=city&lid=2&m=11&y=2016" http://infopangan.jakarta.go.id/api/price/series_by_location
+  923  curl -G -d "public=1&type=city&lid=2&m=11&y=2016" http://infopangan.jakarta.go.id/api/price/series_by_location > source.txt
+  924  nano source.txt
+  925  awk -F '{"name":' '{for(i=2 ; i <= NF ; i++) {print $i}}' source.txt | grep "Cabe Merah" | sed 's/[{}"]//g' | sed 's/,/ | /g' | sed 's/series://g'
+  926  history
+
