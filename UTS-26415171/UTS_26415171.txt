@@ -1,0 +1,130 @@
+173  mkdir UTS
+  174  cd UTS
+  175  nano soal2.py
+  176  python soal2.py
+  177  sudo apt-get install bs
+  178  curl http://api.worldbank.org/v2/en/indicator/SI.POV.GINI?downloadformat=csv
+  179  ls
+  180  wget http://api.worldbank.org/v2/en/indicator/SI.POV.GINI?downloadformat=csv
+  181  ls
+  182  unzip SI.POV.GINI?downloadformat=csv
+  183  ls
+  184  nano API_SI.POV.GINI_DS2_en_csv_v2.csv
+  185  ls
+  186  nano soal1.py
+  187  ls
+  188  python soal1.py
+  189  rm soal1.py
+  190  nano soal1.sh
+  191  bash soal1.sh
+  192  grep API_SI.POV.GINI_DS2_en_csv_v2.csv
+  193  grep "Country Code"  API_SI.POV.GINI_DS2_en_csv_v2.csv
+  194  grep "Country Name" API_SI.POV.GINI_DS2_en_csv_v2.csv
+  195  clear
+  196  grep "Code" API_SI.POV.GINI_DS2_en_csv_v2.csv
+  197  awk -F '{"name":' '{for(i=2 ; i <= NF ; i++) {print $i}}' source.txt | grep "Cabe Merah" | sed 's/[{}"]//g' | sed 's/,/ | /g' | sed 's/series://g'
+  198  ls
+  199  nano soal1.sh
+  200  bash soal1.sh
+  201  ls
+  202  ./soal1.sh
+  203  sudo ./soal1.sh
+  204  bash soal1.sh
+  205  nano soal1.sh
+  206  bash soal1.sh
+  207  nano soal1.sh
+  208  bash soal1.sh
+  209  nano soal1.sh
+  210  awk -F '{"name":' '{for(i=2 ; i <= NF ; i++) {print $i}}' API_SI.POV.GINI_DS2_e$
+  211  awk -F '{"name":' '{for(i=2 ; i <= NF ; i++) {print $i}}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  212  awk -F '{"name":' '{for(i=2 ; i <= NF ; i++) {print $i}}' API_SI.POV.GINI_DS2_en_csv_v2.csv | grep "Code"
+  213  awk -F "|" '{print $2}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  214  awk -F "|" '{print $2}' API_SI.POV.GINI_DS2_en_csv_v2
+  215  awk -F "|" '{print $2}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  216  ls
+  217  nano API_SI.POV.GINI_DS2_en_csv_v2.csv
+  218  nano soal1.sh
+  219  bash soal1.sh
+  220  awk '{$1=""; print $0}'API_SI.POV.GINI_DS2_en_csv_v2.csv
+  221  awk '{$1=""; print $0}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  222  nano soal1.sh
+  223  awk '{$2=""; print $0}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  224  awk '{$3=""; print $0}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  225  awk '{$3="";$4=""; print $0}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  226  awk '{$3="";$5=""; print $0}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  227  awk '{$3="";$6=""; print $0}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  228  awk '{$3="".$6=""; print $0}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  229  awk '{$3="",$6=""; print $0}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  230  awk '{$3="";$6=""; print $0}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  231  awk '{print $3}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  232  awk '{print $2}' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  233  nano API_SI.POV.GINI_DS2_en_csv_v2.csv
+  234*
+  235  nano API_SI.POV.GINI_DS2_en_csv_v2.csv
+  236* sed 's/awk '{ print $3," - ",$4 }' latihan.txtGINI index (Wolrd Bank estimate)//g' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  237  awk '{ print $3," - ",$4 }' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  238  awk '{ print $3," - ",$7 }' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  239  awk '{ print $3," - ",$5 }' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  240  awk '{ print $0," - ",$0 }' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  241  awk '{ print $0," -" }' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  242  awk '{ print $0," -" }' API_SI.POV.GINI_DS2_en_csv_v2.csv | sed 's/""/0/g'
+  243  awk '{ print $0," -" }' API_SI.POV.GINI_DS2_en_csv_v2.csv | sed 's/""//g'
+  244  awk '{ print $0," -" }' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  245  Rscript -e 'd<-scan("stdin", quiet=TRUE)'           -e 'cat(min(d), max(d), median(d), mean(d), sep="\n")' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  246  awk -v max=0 '{if($1>max){want=$2; max=$1}}END{print want} ' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  247  awk '{ print $0," - ",$0 }' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  248  ls
+  249  nano soal1.sh
+  250  bash soal1.sh
+  251  nano soal2.py
+  252  wget https://aplikasi.pertanian.go.id/smshargakab/lhk03prov.asp
+  253  nano soal1.sh
+  254  bash soal1.sh
+  255  nano soal1.sh
+  256  bash soal1.sh
+  257  nano soal1.sh
+  258  awk '{ print $0," - ",$0 }' API_SI.POV.GINI_DS2_en_csv_v2.csv
+  259  awk '{ print $0," - "}' | grep API_SI.POV.GINI_DS2_en_csv_v2.csv
+  260* awk '{ print $0," - "}' |  API_SI.POV.GINI_DS2_en_csv_v2.csv
+  261  awk -F',' 'BEGIN {print "ASN; ASN Name; IPv6 Capable; IPv6 Preferred; Samples"} {printf("%s %s %.2f %.2f %.2f\n",$1,$2,$3,$4,$5) }' | sort > output.csv
+  262  awk -F',' 'BEGIN {print "ASN; ASN Name; IPv6 Capable; IPv6 Preferred; Samples"} {printf("%s %s %.2f %.2f %.2f\n",$1,$2,$3,$4,$5) }' | sort > API_SI.POV.GINI_DS2_en_csv_v2.csv
+  263  ls
+  264  import json
+  265  import os
+  266  from collections import defaultdict
+  267  from pprint import pprint
+  268  test = defaultdict(int)
+  269  tup1 = ();
+  270  tup2 = ();
+  271  total = 0
+  272  int1 = 0
+  273  for a in range(1, 12):
+  274  arglist = a
+  275  bashCommand = "/bin/bash latihan.sh %d" % arglist
+  276  os.system(bashCommand)
+  277  with open('latihan.txt') as data_file:
+  278  data = json.load(data_file)
+  279  for x in data['data']:; print x['name'],
+  280  print x['low'],
+  281  print x['high'],
+  282  print x['average'],
+  283  nano coba.py
+  284  python coba.py
+  285  nano coba.py
+  286  history
+
+
+no1.
+
+wget http://api.worldbank.org/v2/en/indicator/SI.POV.GINI?downloadformat=csv
+
+unzip SI.POV.GINI?downloadformat=csv
+
+sed 's/,""//g' API_SI.POV.GINI_DS2_en_csv_v2.csv | sed 's/,/ /g' | sed 's/" "/|/g' | sed 's/" //g' | awk -F'|' 'BEGIN{ print "Negara Hitung Jumlah Rata-rata Maksimum Minimum" } NR>5 {printf("%s %d ",$2,NF)} NR>5 {min=100;max=0; for(i=5;i<=NF;i++){sum+=$i; rata=sum/NF; if(min>$i){min=$i}; if(max<$i){max=$i}} printf("%.2f %.2f %.2f %.2f\n",sum,rata,max,min); sum=0; rata=0;}'
+
+
+no2.
+
+curl https://aplikasi.pertanian.go.id/smshargakab/lhk03prov.asp
+
+url -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "selprop=35&selrepo=lhk03prov&seltgl=24&selbul=10&seltah=16" -k https://aplikasi.pertanian.go.id/smshargakab/lhk03prov.asp
