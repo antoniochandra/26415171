@@ -1,0 +1,71 @@
+1.Kegunaan Sudo Apt Get Update adalah mengupdate aplikasi / module yang ada dalam server / file kita secara otomatis
+
+2. mkdir = membuat direktori / folder
+   cd = untuk masuk ke direktori
+   rm = menghapus file / folder
+
+3. bashrc adalah fitur / aplikasi / fungsi yang digunakan untuk menjalankan suatu perintah / fungsi bash / menjalankan file berextensi .sh
+
+4.wget http://john.petra.ac.id/~m26414004/Volcorona78521/UTS_SO.zip
+  unzip UTS_SO.zip
+  cd public_html
+  mkdir hasil_recap
+  cd..
+  cp UTS_SO/FD1/Absensi*/csv  public_html/hasil_recap
+  cp UTS_SO/FD2/Absensi*/csv  public_html/hasil_recap
+  cd public_html
+  chmod 745 hasil_recap
+  mkdir FD3
+  cd ..
+  cp UTS_SO/FD3/Absensi*/csv  public_html/hasil_recap/FD3
+  mkdir final
+  cd final
+  mkdir 25-6-2016
+  mkdir 26-6-2016
+  cd..
+  cat *25*.csv
+  cp *25*.csv final/25-6-2016/Informatika.csv
+  cat *26*.csv
+  cp *26*.csv final/26-6-2016/Informatika.csv
+  cd FD3
+  cat *25*.csv
+  cp *25*.csv ../final/25-6-2016/Hotel.csv
+  cat *26*.csv
+  cp *26*.csv ../final/26-6-2016/Arsitek.csv
+  cd ..
+  chmod 744 final
+  mkdir email
+  cd email
+  mkdir 25-6-2016
+  mkdir 26-6-2016
+  cd ..
+  cd final
+  cd 25-5-2016
+  grep ",0" Informatika.csv >> ../../email/25-6-2016/email.rec
+  grep ",0" Hotel.csv >> ../../email/25-6-2016/email.rec
+  cd ..
+  cd 26-6-2016
+  grep ",0" Informatika.csv >> ../../email/26-6-2016/email.rec
+  grep ",0" Arsitek.csv >> ../../email/26-6-2016/email.rec
+  sed -i s/[A-Z]//g email.rec
+  sed -i s/,0//g email.rec
+  sed -i s/,/@john.petra.ac.id/g email.rec
+  sed -i s/^/m/g email.rec
+  cd ..
+  cd 25-5-2016
+  sed -i s/[A-Z]//g email.rec
+  sed -i s/,0//g email.rec
+  sed -i s/,/@john.petra.ac.id/g email.rec
+  sed -i s/^/m/g email.rec
+  cd ..
+  cd ..
+  rm *.csv
+  rm -r FD3
+  
+
+  
+  
+
+---------
+r w x
+4 2 1
